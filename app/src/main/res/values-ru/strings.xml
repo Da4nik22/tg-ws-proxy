@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TG WS Proxy</string>
+
+    <string name="status_stopped">Остановлен</string>
+    <string name="status_starting">Запускается…</string>
+    <string name="status_running">Работает</string>
+    <string name="status_failed">Ошибка</string>
+    <string name="listening_on">Слушает %1$s</string>
+
+    <string name="btn_start">Запустить</string>
+    <string name="btn_stop">Остановить</string>
+    <string name="btn_open">Добавить прокси в Telegram</string>
+    <string name="btn_copy">Скопировать ссылку на прокси</string>
+    <string name="btn_save">Сохранить настройки</string>
+    <string name="btn_battery">Разрешить работу в фоне (батарея)</string>
+
+    <string name="label_settings">Настройки</string>
+    <string name="label_stats">Статистика</string>
+    <string name="label_log">Журнал</string>
+    <string name="hint_port">Порт (1024–65535)</string>
+    <string name="hint_dc">IP для WebSocket по DC, например 2:149.154.167.220, 4:149.154.167.220</string>
+    <string name="hint_pool">Готовых соединений на DC (0–16)</string>
+    <string name="cb_verbose">Подробный журнал</string>
+
+    <string name="label_autostart">Автозапуск</string>
+    <string name="cb_autostart_boot">Запускать при включении телефона</string>
+    <string name="cb_autostart_open">Запускать при открытии приложения</string>
+    <string name="battery_ok">Батарея: без ограничений ✓</string>
+    <string name="battery_restricted">Батарея: есть ограничения. Система может остановить прокси в фоне, нажмите «Разрешить работу в фоне».</string>
+    <string name="autostart_hint">Автозапуск при включении срабатывает и после обновления приложения. На некоторых телефонах (Xiaomi, Huawei, Samsung и др.) автозапуск нужно дополнительно разрешить в системных настройках, иначе запуск при включении блокируется.</string>
+
+    <string name="toast_saved">Сохранено</string>
+    <string name="toast_copied">Ссылка скопирована</string>
+    <string name="toast_no_telegram">Telegram не установлен</string>
+    <string name="err_port">Порт должен быть числом от 1024 до 65535</string>
+    <string name="err_pool">Размер пула должен быть числом от 0 до 16</string>
+    <string name="err_dc">Список DC: %1$s</string>
+
+    <string name="notif_channel">Состояние прокси</string>
+    <string name="notif_running">Слушает %1$s</string>
+    <string name="notif_stop">Остановить</string>
+</resources>

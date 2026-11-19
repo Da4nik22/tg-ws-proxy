@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TG WS Proxy</string>
+
+    <string name="status_stopped">Stopped</string>
+    <string name="status_starting">Starting…</string>
+    <string name="status_running">Running</string>
+    <string name="status_failed">Failed</string>
+    <string name="listening_on">Listening on %1$s</string>
+
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_open">Add proxy to Telegram</string>
+    <string name="btn_copy">Copy proxy link</string>
+    <string name="btn_save">Save settings</string>
+    <string name="btn_battery">Allow background work (battery)</string>
+
+    <string name="label_settings">Settings</string>
+    <string name="label_stats">Statistics</string>
+    <string name="label_log">Log</string>
+    <string name="hint_port">Port (1024–65535)</string>
+    <string name="hint_dc">WebSocket DC IPs, e.g. 2:149.154.167.220, 4:149.154.167.220</string>
+    <string name="hint_pool">Ready connections per DC (0–16)</string>
+    <string name="cb_verbose">Verbose log</string>
+
+    <string name="label_autostart">Autostart</string>
+    <string name="cb_autostart_boot">Start when the phone boots</string>
+    <string name="cb_autostart_open">Start when the app is opened</string>
+    <string name="battery_ok">Battery: unrestricted ✓</string>
+    <string name="battery_restricted">Battery: restricted. The system may stop the proxy in the background, tap \"Allow background work\".</string>
+    <string name="autostart_hint">Boot autostart also runs after the app is updated. On some phones (Xiaomi, Huawei, Samsung and others) you must also allow autostart for this app in the system settings, otherwise the boot start is blocked.</string>
+
+    <string name="toast_saved">Saved</string>
+    <string name="toast_copied">Link copied</string>
+    <string name="toast_no_telegram">Telegram is not installed</string>
+    <string name="err_port">Port must be a number from 1024 to 65535</string>
+    <string name="err_pool">Pool size must be a number from 0 to 16</string>
+    <string name="err_dc">DC list: %1$s</string>
+
+    <string name="notif_channel">Proxy status</string>
+    <string name="notif_running">Listening on %1$s</string>
+    <string name="notif_stop">Stop</string>
+</resources>
